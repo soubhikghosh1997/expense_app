@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+button {
+  background: none;
+  border: none;
+  outline: none;
+}
+.header1 {
+  padding-left: 0px;
+}
+.header2 {
+  padding-left: 200px;
+}
+.header {
+  display: flex;
+}
+.registration {
+  background-color: white;
+  height: 350px;
+  width: 350px;
+  padding-left: 80px;
+  padding-top: 20px;
+  margin-left: 200px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px black;
+}
+.reg-btn {
+  background-color: blue;
+  color: aliceblue;
+  height: 20px;
+  width: 80px;
+  margin-bottom: 20px;
+  transform: translateX(40px) translateY(20px);
+  border-radius: 10px;
+}
+.reg-input {
+  border-radius: 10px;
+  height: 20px;
+  padding: 10px;
+  border-color: blue;
+}
+.login {
+  background-color: white;
+  height: 350px;
+  width: 350px;
+  padding-left: 80px;
+  padding-top: 20px;
+  margin-left: 200px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px black;
+  border: 2px solid black;
+}
+.login-input {
+  border-radius: 10px;
+  height: 20px;
+  padding: 10px;
+  border-color: blue;
+}
+.login-btn {
+  background-color: blue;
+  color: aliceblue;
+  height: 20px;
+  width: 80px;
+  margin-bottom: 20px;
+  transform: translateX(40px) translateY(20px);
+  border-radius: 10px;
+}
+.profile {
+  background-color: white;
+  height: 600px;
+  width: 350px;
+  margin-left: 250px;
+  border-radius: 20px;
+  border-color: blue;
+}
+.setting-budget-Label {
+  font-size: 50px;
+}
+.setting-budget-input {
+  width: 300px;
+  height: 40px;
+  transform: translateX(350px) translateY(-45px);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.setting-budget-data {
+  transform: translateX(320px) translateY(-60px);
+  font-size: 50px;
+}
+.setting-budget-btn1 {
+  background-color: green;
+  color: black;
+  height: 50px;
+  width: 100px;
+  transform: translateX(700px) translateY(-110px);
+  border-radius: 20px;
+}
+.setting-budget-btn2 {
+  background-color: green;
+  color: black;
+  height: 50px;
+  width: 100px;
+  transform: translateX(400px) translateY(-40px);
+  border-radius: 20px;
+}
+.setting-budget-wrapper1 {
+  /* background-color: wheat; */
+  overflow: hidden;
+  overflow-y: hidden;
+}
+.setting-budget-wrapper2 {
+  /* background-color: navy; */
+  margin-top: 40px;
+  height: 300px;
+  width: 1300px;
+  display: flex;
+  justify-content: space-between;
+}
+.setting-category-form {
+  /* background-color: black; */
+  margin-left: 20px;
+  width: 350px;
+  height: 600px;
+}
+.setting-category-list {
+  /* background-color: brown; */
+  /* margin-left: 20px; */
+  width: 350px;
+  height: 300px;
+  overflow: scroll;
+  padding-left: 50px;
+}
+.setting-category-wrapper {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: palevioletred; */
+  width: 800px;
+}
+
+.homeExpenseContainer {
+  /* background-color: blue; */
+  margin-top: 120px;
+  height: 200px;
+}
+.expense_Add_And_Search_Component {
+  /* background-color: brown; */
+  height: 80px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 80px;
+}
+.modal-form {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.add-expense-form {
+  height: 30px;
+  border-radius: 10px;
+  border-color: blue;
+  padding: 10px;
+}
+.add-expense-dropdown {
+  height: 30px;
+  border-radius: 10px;
+  border-color: blue;
+  color: blue;
+}
+.expense_Listing {
+  /* background-color: brown; */
+  height: 140px;
+}
+.navbar {
+  height: 1300px;
+}
+
+.search_expenses {
+  height: 40px;
+  width: 400px;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 20px;
+  border-color: blue;
+}
+.expense_statistics_wrapper {
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.category_wise_statistics {
+  height: 400px;
+  width: 500px;
+}
+.budget_to_expense_statistics {
+  height: 400px;
+  width: 500px;
+}
+
+.upload_box {
+  font-size: 20px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px black;
+  width: 300px;
+  height: 40px;
+  outline: none;
+}
+::-webkit-file-upload-button {
+  color: white;
+  background: blue;
+  height: 40px;
+  padding: 5px;
+  border-radius: 20px;
+  outline: none;
+}
+::-webkit-file-upload-button:hover {
+  background-color: navy;
+}
+.profilepic_button {
+  height: 30px;
+  width: 100px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px blue;
+  margin-left: 60px;
+  color: navy;
+}
+.budget_expense_statistics {
+  display: flex;
+  justify-content: space-between;
+}
+.budget_expense_statistics_details {
+  margin-top: 30px;
+}
+.delete_reset_account {
+  /* background-color: blue; */
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+  padding-top: 120px;
+  padding-left: 30px;
+}
+.invoiceUpload {
+  height: 30px;
+  width: 60px;
+  background-color: navy;
+  color: white;
+  border-radius: 10px;
+}
